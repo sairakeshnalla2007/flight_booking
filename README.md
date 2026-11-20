@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# flight_booking
 
-# Run and deploy your AI Studio app
+An international flight booking website built with React, Express, and PostgreSQL.
 
-This contains everything you need to run your app locally.
+## Run locally
 
-View your app in AI Studio: https://ai.studio/apps/347ef72e-507f-4a29-9f22-f5561a635583
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+Prerequisites: Node.js and PostgreSQL.
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```sh
+   npm install
+   ```
+2. Configure the database variables in `.env` using `.env.example` as a guide.
+3. Create the database, then set up its schema and seed data:
+   ```sh
+   npm run db:setup
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+The app is available at `http://localhost:3000`.
