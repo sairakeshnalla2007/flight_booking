@@ -1,0 +1,6 @@
+{
+  "name": "AeroPass",
+  "description": "Subscription-based last-minute flight booking platform powered by a normalized 3NF PostgreSQL database, Drizzle ORM, and atomic seat locking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
